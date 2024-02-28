@@ -17,7 +17,7 @@ create_button.onclick = function(){
     }
 
     else if (index === 2){
-        let num = 0.4 * number_end.value + (Math.random() * 0.3 * number_end.value)
+        let num = (0.4 * number_end.value + (Math.random() * 0.3 * number_end.value)) - number_end.value/20
         num = Math.ceil(num)
         random_num.innerHTML = num
         index = 3
@@ -25,10 +25,9 @@ create_button.onclick = function(){
 
 
     else if (index === 3){
-        let num = 1 * number_end.value - (Math.random() * 0.35 * number_end.value)
+        let num = 1 * number_end.value - (Math.random() * 0.35 * number_end.value) 
         num = Math.ceil(num)
         random_num.innerHTML = num
         index = 1
     }
-
 }
