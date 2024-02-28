@@ -5,7 +5,8 @@ let number_end = document.getElementById('number-end')
 let number_start = document.getElementById('number-start')
 
 
-let coefficient = number_end
+
+random_num.innerHTML = Math.ceil(Math.random() * 50)
 
 
 create_button.onclick = function(){
