@@ -30,4 +30,5 @@ create_button.onclick = function(){
         random_num.innerHTML = num
         index = 1
     }
+
 }
